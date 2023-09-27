@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(228, 108, 10);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    height: 100vh;
+}
+.boxwrapper{
+    background-color: white;
+    max-width: 100%;
+    height: 50vh;
+    border-radius: 15px;
+}
+.pdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.pdivwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #dde1e7;
+    height: 50px;
+    width: 80%;
+}
+.pdiv p{
+    font-size: 25px;
+}
+.text{
+    padding: 20px;
+}
+.text h1{
+    text-align: center;
+}
+.text p{
+    text-align: center;
+}
+.counterbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counterbutton button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(228, 108, 10);
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    transition: linear 0.3s;
+}
+.counterbutton button:hover{
+    background-color: rgb(163, 102, 9);
+
+}
